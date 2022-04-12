@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+watermelon:
+  title: straberrie red
+  opinion: sweet
+
+coco:
+  title: straberrie white
+  opinion: amai

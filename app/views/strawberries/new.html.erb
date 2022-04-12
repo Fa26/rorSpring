@@ -1,0 +1,22 @@
+<h1>Crea un nuevo Strawberrie</h1>
+
+<%= form_with model: @straw do |form| %>
+	<% @straw.errors.full_messages.each do |error| %>
+		<%= error %>
+	<% end %>
+<div>
+	<%= form.label :'Title' %>
+	<%= form.text_field :title %>
+
+</div>
+<br></br>
+
+
+<div>
+	<%= form.label :'Opinion' %>
+	<%= form.text_area :opinion %>
+</div>
+
+<%=form.submit %>
+
+<%end%>

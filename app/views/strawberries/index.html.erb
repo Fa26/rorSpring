@@ -1,0 +1,9 @@
+<h1>Strawberries:</h1>
+
+
+<% @strawberries.each do |strawberry| %>
+	<%= link_to strawberrie_path(strawberry.id), class: 'product' do%>
+	<h2> <%= strawberry.title%></h2>
+	<p> <%= strawberry.opinion%></p>
+	<%end%>
+<% end %>
